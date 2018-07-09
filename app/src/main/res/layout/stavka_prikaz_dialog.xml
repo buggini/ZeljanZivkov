@@ -3,7 +3,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp">
+    android:layout_marginRight="20dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,10 +15,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name"/>
+            android:text="Naslov"
+            android:textStyle="bold"/>
 
-        <EditText
-            android:id="@+id/actor_name"
+        <TextView
+            android:id="@+id/stavka_naslov_prikaz_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -32,10 +34,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Biography"/>
+            android:text="Detaljni Opis"/>
 
-        <EditText
-            android:id="@+id/actor_biography"
+        <TextView
+            android:id="@+id/stavka_detaljni_opis_prikaz_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -50,15 +52,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rating"/>
+            android:text="Nivo Ozbiljnosti"/>
 
-        <RatingBar
-            android:id="@+id/acrtor_rating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:numStars="5"
-            android:stepSize="1.0"
-            android:rating="0.0"/>
+        <TextView
+            android:id="@+id/stavka_nivo_ozbiljnosti_prikaz_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -71,14 +70,34 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Birth"/>
+            android:text="Kratki Komentar"/>
 
-        <EditText
-            android:id="@+id/actor_birth"
+        <TextView
+            android:id="@+id/stavka_kratki_komentar_prikaz_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datum Prijave"/>
+
+        <TextView
+            android:id="@+id/stavka_datum_prijave_prikaz_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,11 +107,15 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/add_actor"
+            android:id="@+id/add_stavka_btn_prikaz_dialog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add"
-            android:background="@color/green"/>
+            android:text="Add"/>
+        <Button
+            android:id="@+id/cancel_stavka_btn_prikaz_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
 
     </LinearLayout>
 
