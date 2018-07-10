@@ -27,7 +27,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <ListView
-        android:id="@+id/stavka_list"
+        android:id="@+id/prijava_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

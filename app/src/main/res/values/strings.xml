@@ -16,8 +16,10 @@
     <string name="notification_text">The selected item has been ordered and will be shipped in a week.</string>
 
     <string name="dialog_about_title">About</string>
-
+    <string name="dialog_about_message">This is Example18 app which demonstrates usage of toasts, notifications, dialogs, preferences, toolbars and navigation drawers</string>
+    <string name="dialog_about_yes">OK</string>
     <string name="dialog_about_no">Cancel</string>
+
 
     <string name="pref_sync">pref_sync</string>
     <string name="pref_sync_title">Allow Sync</string>
